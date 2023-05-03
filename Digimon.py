@@ -14,3 +14,6 @@ class Digimon:
         self.spd = spd
     def __repr__(self):
         return f"Digimon({self.id}, {self.nombre}, {self.stage}, {self.tipo}, {self.atributo}, {self.memoria}, {self.hp}, {self.sp}, {self.atk}, {self.df}, {self.int}, {self.spd})"
+    
+    def obtener_nombre(self):
+        return self.nombre
